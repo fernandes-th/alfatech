@@ -65,12 +65,18 @@ header {
     .header-menu li:first-of-type {
         display: none;
     }
+
+    .header-menu {
+        justify-content: center;
+        gap: 20px;
+    }
+
     .header-menu a {
         background-color: #2f85d6ea;
         color: #fff;
-        padding: 8px 20px;
+        padding: 6px 18px;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 14px;
     }
     .header-menu a:hover {
         background-color: #2d6598;
