@@ -1,0 +1,169 @@
+.planos {
+    background-color: var(--tabela-odd);
+}
+
+.planos h2 {
+    text-align: center;
+}
+
+.planos h2 span {
+    color: var(--fundo-banner);
+}
+
+table {
+    width: 98%;
+    margin: 55px auto;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.041);
+    box-shadow: 0 0 30px 10px rgba(47,134,214,1);
+
+}
+
+thead {
+    background-color: #fff;
+}
+th div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 12px;
+}
+
+th p {
+    flex: 1;
+}
+
+figcaption {
+    color: var(--letra-minuscula);
+    font-size: 12px;
+    font-weight: 500;
+}
+thead tr:nth-child(3) th {
+    color: var(--letra-minuscula);
+    font-size: 16px;
+    font-weight: 500;
+}
+tbody tr {
+    font-weight: 600;
+}
+
+th {
+    background-color: #fff;
+}
+
+th img {
+    width: 80px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: var(--fundo-info);
+}
+tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+td {
+    font-size: 14px;
+    width: calc(100%/4);
+}
+
+td {
+    padding: 10px 10px;
+}
+ th {
+    padding: 10px 50px;
+ }
+
+ .galeria-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    display: none;
+
+ }
+
+ .card figcaption {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    flex: 1;
+    padding: 8px;
+ }
+
+ .card {
+    width: 200px;
+    text-align: center;
+    border: 4px solid rgba(211, 211, 211, 0.541);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+
+.card span {
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.card img {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card p:nth-of-type(odd) {
+    background-color: rgba(211, 211, 211, 0.541);
+}
+.card p {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    flex: 1;
+}
+
+@media (max-width: 960px) {
+    table {
+        display: none;
+    }
+    .galeria-card {
+        display: flex;
+        margin-top: 40px;
+    }
+    
+}
+
+@media (max-width: 720px) {
+    .card {
+        width: 50%;
+    }
+    .card figcaption {
+        font-size: 18px;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .card span {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 560px) {
+    .card span {
+        font-size: 24px;
+    }
+    .card {
+        width: 80%;
+    }
+}
+
+@media (max-width: 440px) {
+    .card span {
+        font-size: 20px;
+    }
+    .card {
+        width: 80%;
+    }
+}

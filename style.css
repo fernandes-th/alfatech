@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('header.css');
+@import url('banner.css');
+@import url('anuncio.css');
+@import url('informacoes.css');
+@import url('planos.css');
+@import url('footer.css');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fundo-branco: #fff;
+    --fundo-banner: #2f86d6;
+    --fundo-info: #f1f3f7;
+    --fundo-anuncio: #23303e;
+    --letra-menunav: #233032;
+    --letra-pequena: #fff6f1a2;
+    --letra-minuscula: #989898a1;
+    --letra-grande: #fff;
+    --tabela-odd: #f6f6f6;
+    --tabela-even: #fff;
+    --sombreado: rgba(47,134,214,1);
+}
+
+.config-width {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.padding-g {
+    padding: 65px 0;
+}
+.padding-m {
+    padding: 30px 0;
+}
+.padding-p {
+    padding-left: 12px 0;
+}
+
+@media (max-width: 1000px) {
+    .config-width {
+        width: 80%;
+    }
+}

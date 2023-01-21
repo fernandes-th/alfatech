@@ -1,0 +1,96 @@
+
+.anuncio1 {
+    background-color: var(--fundo-anuncio);
+}
+.anuncio2 {
+    background-color: var(--fundo-banner);
+}
+
+.anuncio-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anuncio-texto h2 {
+    color: var(--letra-grande);
+}
+.anuncio-texto p {
+    color: var(--letra-pequena);
+}
+
+.botao-precos {
+    color: var(--letra-grande);
+    text-decoration: none;
+    font-weight: 600;
+    background-color: var(--fundo-banner);
+    padding: 16px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.botao-precos2 {
+    color: var(--letra-grande);
+    text-decoration: none;
+    font-weight: 600;
+    background-color: var(--fundo-anuncio);
+    padding: 16px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.botao-precos2::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url('img/icone-foguete.png');
+}
+
+.botao-precos::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url('img/icone-foguete.png');
+}
+
+@media (max-width: 1080px) {
+    .botao-precos::before, .botao-precos2::before {
+        display: none;
+    }
+
+    .botao-precos2 {
+        font-size: 14px;
+        padding: 10px 14px;
+        gap: 10px;
+    }
+    .botao-precos {
+        font-size: 14px;
+        padding: 10px 14px;
+        gap: 10px;
+    }
+
+    .anuncio-texto h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 880px) {
+    .anuncio-texto h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 760px) {
+    .anuncio-content {
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+    }
+    .anuncio-texto h2 {
+        font-size: 22px;
+    }
+}

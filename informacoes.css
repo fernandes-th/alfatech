@@ -1,0 +1,51 @@
+
+
+.informacoes {
+    text-align: center;
+}
+
+.informacoes h2 span{
+    color: var(--fundo-banner);
+}
+
+.galeria-info {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.box-info {
+    width: calc((100% / 3) - 6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-info img {
+    width: 30%;
+}
+
+@media (max-width: 680px) {
+    .box-info img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .galeria-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .box-info {
+        width: 65%;
+    }
+    .box-info p {
+        font-size: 18px;
+    }
+}
