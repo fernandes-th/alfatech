@@ -55,3 +55,12 @@
         font-size: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .banner-img img {
+        width: 250px;
+    }
+    .banner-texto h2 {
+        font-size: 21px;
+    }
+}

@@ -1,169 +1,286 @@
 .planos {
-    background-color: var(--tabela-odd);
+  background-color: var(--tabela-odd);
 }
 
 .planos h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .planos h2 span {
-    color: var(--fundo-banner);
+  color: var(--fundo-banner);
 }
 
-table {
-    width: 98%;
-    margin: 55px auto;
-    text-align: center;
-    background-color: rgba(128, 128, 128, 0.041);
-    box-shadow: 0 0 30px 10px rgba(47,134,214,1);
-
+.table1 {
+  width: 98%;
+  margin: 55px auto;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.041);
+  box-shadow: 0 0 30px 10px rgba(47, 134, 214, 1);
 }
 
 thead {
-    background-color: #fff;
+  background-color: #fff;
 }
 th div {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
 }
 
 th p {
-    flex: 1;
+  flex: 1;
 }
 
 figcaption {
-    color: var(--letra-minuscula);
-    font-size: 12px;
-    font-weight: 500;
+  color: var(--letra-minuscula);
+  font-size: 12px;
+  font-weight: 500;
 }
 thead tr:nth-child(3) th {
-    color: var(--letra-minuscula);
-    font-size: 16px;
-    font-weight: 500;
+  color: var(--letra-minuscula);
+  font-size: 16px;
+  font-weight: 500;
 }
 tbody tr {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 th {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 th img {
-    width: 80px;
+  width: 80px;
 }
 
-tr:nth-of-type(odd) {
-    background-color: var(--fundo-info);
+.table1 tr:nth-of-type(odd) {
+  background-color: var(--fundo);
 }
-tr:nth-of-type(even) {
-    background-color: #fff;
-}
-
-td {
-    font-size: 14px;
-    width: calc(100%/4);
+.table1 tr:nth-of-type(even) {
+  background-color: #fff;
 }
 
 td {
-    padding: 10px 10px;
+  font-size: 14px;
+  width: calc(100% / 4);
 }
- th {
-    padding: 10px 50px;
- }
 
- .galeria-card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    display: none;
+td {
+  padding: 10px 10px;
+}
+th {
+  padding: 10px 50px;
+}
 
- }
+.galeria-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  display: none;
+}
 
- .card figcaption {
-    margin-top: 0px;
-    margin-bottom: 15px;
-    flex: 1;
-    padding: 8px;
- }
+.card figcaption {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  flex: 1;
+  padding: 8px;
+}
 
- .card {
-    width: 200px;
-    text-align: center;
-    border: 4px solid rgba(211, 211, 211, 0.541);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
- }
+.card {
+  width: 200px;
+  text-align: center;
+  border: 4px solid rgba(211, 211, 211, 0.541);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
 
 .card span {
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 12px;
-    font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 18px;
 }
 
 .card img {
-    width: 60%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .card p:nth-of-type(odd) {
-    background-color: rgba(211, 211, 211, 0.541);
+  background-color: rgba(211, 211, 211, 0.541);
 }
 .card p {
-    padding: 10px;
-    font-weight: 600;
-    font-size: 15px;
-    flex: 1;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  flex: 1;
 }
 
 @media (max-width: 960px) {
-    table {
-        display: none;
-    }
-    .galeria-card {
-        display: flex;
-        margin-top: 40px;
-    }
-    
+  .table1 {
+    display: none;
+  }
+  .galeria-card {
+    display: flex;
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 720px) {
-    .card {
-        width: 50%;
-    }
-    .card figcaption {
-        font-size: 18px;
-    }
+  .card {
+    width: 50%;
+  }
+  .card figcaption {
+    font-size: 18px;
+  }
 
-    .card img {
-        width: 50%;
-    }
+  .card img {
+    width: 50%;
+  }
 
-    .card span {
-        font-size: 26px;
-    }
+  .card span {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 560px) {
-    .card span {
-        font-size: 24px;
-    }
-    .card {
-        width: 80%;
-    }
+  .card span {
+    font-size: 24px;
+  }
+  .card {
+    width: 80%;
+  }
 }
 
 @media (max-width: 440px) {
-    .card span {
-        font-size: 20px;
-    }
-    .card {
-        width: 80%;
-    }
+  .card span {
+    font-size: 20px;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+/* TABELA PLANOS */
+
+.tabela-planos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.tabela-planos table {
+  white-space: nowrap;
+}
+
+/* FIM TABELA PLANOS */
+
+/* tabela fixa */
+
+
+.tabela-fixa tr {
+  width: fit-content;
+  height: 100%;
+  font-weight: 600;
+}
+.tabela-fixa table tr td, .tabela-fixa table th {
+  background-color: var(--fundo-info);
+  padding: 8px 10px;
+  height: max-content;
+}
+.tabela-fixa table th {
+  background-color: #fff;
+  visibility: hidden;
+}
+.tabela-fixa table th span {
+  display: block;
+}
+.tabela-fixa table th span:first-of-type {
+  font-size: 12px;
+}
+.tabela-fixa table th span:last-of-type {
+  font-size: 26px;
+  margin-top: -5px;
+}
+
+/* tabela fixa */
+
+/* tabela móvel */
+
+.tabela-movel th {
+  background-color: var(--fundo-info);
+  padding: 8px 10px;
+}
+
+.tabela-movel table th span{
+  display: block;
+}
+.tabela-movel table th span:first-of-type {
+  color: var(--letra-minuscula);
+  font-size: 12px;
+}
+.tabela-movel table th span:last-of-type {
+  font-size: 26px;
+  margin-top: -5px;
+}
+.tabela-movel table td {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 9.5px 10px;
+  width: 120px;
+  text-align: center;
+  border-bottom: 1px solid var(--fundo-info) inset;
+}
+
+.tabela-movel table tr:last-of-type td {
+  border-bottom: 1px solid var(--fundo-info);
+}
+.tabela-movel table tr td {
+  border-right: 1px solid var(--fundo-info);
+}
+
+.tabela-movel {
+  overflow-x: auto;
+}
+
+.icone {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--fundo-banner);
+}
+
+@media (max-width: 550px) {
+  .tabela-fixa td {
+    font-size: 10px;
+  }
+  .tabela-movel td {
+    font-size: 8px !important;
+    padding: 10px 10px !important;
+  }
+  .icone {
+    width: 8px;
+    height: 8px;
+  }
+
+  .tabela-fixa table th span:first-of-type {
+    font-size: 8px;
+  }
+  .tabela-fixa table th span:last-of-type {
+    font-size: 18px;
+    margin-top: -5px;
+  }
+  .tabela-movel table th span:first-of-type {
+    color: var(--letra-minuscula);
+    font-size: 8px;
+  }
+  .tabela-movel table th span:last-of-type {
+    font-size: 18px;
+    margin-top: -5px;
+  }
+
 }

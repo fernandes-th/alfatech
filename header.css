@@ -1,6 +1,9 @@
 
-header {
+.header {
     background-color: var(--fundo-branco);
+}
+.header2 {
+    background-color: var(--fundo-banner);
 }
 
 .header-content {
@@ -20,11 +23,11 @@ header {
     width: 70px;
 }
 
-.header-logo-texto {
+.header-logo-texto, .header-logo-texto2 {
     margin-top: -10px;
 }
 
-.header-logo-texto h1 {
+.header-logo-texto h1, .header-logo-texto2 h1 {
     font-size: 26px;
     font-weight: 800;
 }
@@ -32,6 +35,11 @@ header {
     font-size: 14px;
     color: var(--fundo-banner);
     font-weight: 600;
+}
+.header-logo-texto2 p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
 }
 
 .header-menu {
@@ -45,6 +53,16 @@ header {
     text-decoration: none;
     font-weight: 600;
     font-size: 18px;
+}
+.header-menu a:hover {
+    border-bottom: 2px solid var(--fundo-banner);
+}
+
+.menu2-cor a {
+    color: #fff;
+}
+.menu2-cor a:hover {
+    border-bottom: 1.5px solid #fff;
 }
 
 @media (max-width: 940px) {
@@ -88,5 +106,8 @@ header {
     }
     .header-menu a {
         font-size: 14px;
+    }
+    .header-logo-texto p, .header-logo-texto2 p {
+        font-size: 12px;
     }
 }

@@ -2,6 +2,10 @@ header {
     background-color: var(--fundo-branco);
 }
 
+.footer2 {
+    background-color: var(--fundo-banner);
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -43,6 +47,16 @@ header {
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.footer-logo-texto2 p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-contato2 p {
+    color: #fff;
 }
 
 .footer-dev {
