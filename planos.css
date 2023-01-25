@@ -246,14 +246,6 @@ th {
   overflow-x: auto;
 }
 
-.icone {
-  display: inline-block;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background-color: var(--fundo-banner);
-}
-
 @media (max-width: 550px) {
   .tabela-fixa td {
     font-size: 10px;
@@ -261,14 +253,6 @@ th {
   .tabela-movel td {
     font-size: 8px !important;
     padding: 10px 10px !important;
-  }
-  .padding-icone {
-    padding-top: 8.5px !important;
-  }
-  
-  .icone {
-    width: 8px;
-    height: 8px;
   }
 
   .tabela-fixa table th span:first-of-type {
