@@ -262,6 +262,10 @@ th {
     font-size: 8px !important;
     padding: 10px 10px !important;
   }
+  .padding-icone {
+    padding: 9.5px 10px !important;
+  }
+  
   .icone {
     width: 8px;
     height: 8px;
