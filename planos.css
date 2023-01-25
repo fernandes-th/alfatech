@@ -246,17 +246,17 @@ th {
 
 @media (max-width: 550px) {
   .tabela-fixa td {
-    font-size: 10px;
+    font-size: 8px;
   }
   .tabela-movel td {
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
 
   .tabela-fixa table th span:first-of-type {
     font-size: 8px;
   }
   .tabela-fixa table th span:last-of-type {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: -5px;
   }
   .tabela-movel table th span:first-of-type {
@@ -264,7 +264,7 @@ th {
     font-size: 8px;
   }
   .tabela-movel table th span:last-of-type {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: -5px;
   }
 
