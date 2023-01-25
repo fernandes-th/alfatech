@@ -77,6 +77,9 @@
     .header-menu a {
         font-size: 22px;
     }
+    .menu2-cor a:hover {
+        border-bottom: 1.5px solid var(--fundo-banner);
+    }
 }
 
 @media (max-width: 580px) {
@@ -95,9 +98,6 @@
         padding: 6px 18px;
         border-radius: 10px;
         font-size: 14px;
-    }
-    .header-menu a:hover {
-        background-color: #2d6598;
     }
 }
 @media (max-width: 380px) {

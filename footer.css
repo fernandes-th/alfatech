@@ -79,3 +79,22 @@ header {
         font-size: 16px;
     }
 }
+
+@media (max-width: 400px) {
+    .footer-dev p {
+        font-size: 12px !important;
+    }
+    .footer-contato2 p {
+        font-size: 8px;
+    }
+    .footer-logo-img img {
+        width: 50px;
+    }
+    .footer-logo-texto2 h1 {
+        font-size: 20px;
+    }
+    .footer-logo-texto2 p {
+        font-size: 10px;
+    }
+    
+}
